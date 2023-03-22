@@ -1,5 +1,7 @@
 const { initializeApp } = require('firebase/app');
 const { getFirestore, collection, getDocs, addDoc, deleteDoc, doc } = require('firebase/firestore');
+const { get } = require('http');
+const { send } = require('process');
 
 const firebaseConfig = {
     apiKey: "AIzaSyBwg-aiXLJqiK0tiviv3dKhhdOH6nvUN-Q",
@@ -18,13 +20,3 @@ initializeApp(firebaseConfig);
 const db = getFirestore()
 const database = collection(db, 'Users')
 console.log(database);
-
-function popup() {
- 
-
-    document.getElementById('hola')
-            .style.display = "block";
-
-    document.getElementById('buttonPay')
-            .style.display = "none";
-}
