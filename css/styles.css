@@ -1,3 +1,12 @@
+*{
+--color1:#000b4f;
+--color2:#20368f;
+--color3:#829cd0;
+--color4:#FFFFFF;
+--color5:#6d6d6d;
+--color6:#323232;
+}
+
 body{
-    background-color: rgb(32, 32, 32);
+    background-color: var(--color6);
 }
