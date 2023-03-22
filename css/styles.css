@@ -14,7 +14,7 @@ body{
 
 
 /* BUTTON */
-button{
+.buttonPay{
     position: absolute;
     background-color: var(--color7);
     margin: 0 42%;
