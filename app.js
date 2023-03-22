@@ -1,8 +1,6 @@
 const { initializeApp } = require('firebase/app');
 const { getFirestore, collection, getDocs, addDoc, deleteDoc, doc } = require('firebase/firestore');
 
-const bodyParser = require('body-parser')
-
 const firebaseConfig = {
     apiKey: "AIzaSyBwg-aiXLJqiK0tiviv3dKhhdOH6nvUN-Q",
     authDomain: "telenokoleskap.firebaseapp.com",

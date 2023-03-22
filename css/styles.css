@@ -24,11 +24,11 @@ button{
     border-radius: 30px;
     color: var(--color4);
     border-color: var(--color7);
+
 }
 
 button:hover{
     transform: scale(1.2) perspective(1px);
-    animation-duration: 60ms;
 }
 
 /* h1{
