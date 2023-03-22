@@ -8,5 +8,17 @@
 }
 
 body{
+    background-color: var(--color5);
+}
+
+.nav{
     background-color: var(--color6);
+    border: 0%;
+    width:inherit;
+    position: relative;
+    
+}
+
+.BuyNowButton{
+    margin: 1rem;
 }
