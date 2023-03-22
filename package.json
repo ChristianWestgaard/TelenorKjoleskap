@@ -1,0 +1,16 @@
+{
+  "name": "telenorkjoleskap",
+  "version": "1.0.0",
+  "description": "TelenorKjøleskap",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase": "^9.18.0",
+    "nodemon": "^2.0.21"
+  }
+}
