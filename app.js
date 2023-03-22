@@ -18,3 +18,13 @@ initializeApp(firebaseConfig);
 const db = getFirestore()
 const database = collection(db, 'Users')
 console.log(database);
+
+function popup() {
+ 
+
+    document.getElementById('hola')
+            .style.display = "block";
+
+    document.getElementById('buttonPay')
+            .style.display = "none";
+}
