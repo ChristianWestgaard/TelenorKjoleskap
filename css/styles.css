@@ -26,7 +26,8 @@ button{
 }
 
 button:hover{
-    transform: scale(1.2) perspective(1px)
+    transform: scale(1.2) perspective(1px);
+    animation-duration: 60ms;
 }
 
 h1{
