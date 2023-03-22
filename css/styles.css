@@ -23,20 +23,21 @@ button{
     height: 200px;
     border-radius: 30px;
     color: var(--color4);
+    border-color: var(--color7);
 }
 
 button:hover{
     transform: scale(1.2) perspective(1px)
 }
 
-h1{
+/* h1{
     font-size: 3.7rem;
     font-family: 'Arial';
     width: 250px;
     padding-top: 13px;
     position: absolute;
     margin: -40px 0 0 40px;
-}
+} */
 
 
 /* VIPPS LOGO */
