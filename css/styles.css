@@ -24,6 +24,7 @@ body{
     border-radius: 30px;
     color: var(--color4);
     border-color: var(--color7);
+    transition: 2s;
 }
 
 .buttonPay:hover{
