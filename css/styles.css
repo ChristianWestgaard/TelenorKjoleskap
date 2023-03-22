@@ -5,20 +5,43 @@
 --color4:#FFFFFF;
 --color5:#6d6d6d;
 --color6:#323232;
+--color7:#FF5B24;
 }
 
 body{
-    background-color: var(--color5);
+    background-color: var(--color4);
 }
 
-.nav{
-    background-color: var(--color6);
-    border: 0%;
-    width:inherit;
-    position: relative;
-    
+
+/* BUTTON */
+button{
+    position: absolute;
+    background-color: var(--color7);
+    margin: 0 42%;
+    margin-top: 10%;
+    width: 600px;
+    height: 200px;
+    border-radius: 30px;
+    color: var(--color4);
 }
 
-.BuyNowButton{
-    margin: 1rem;
+button:hover{
+    transform: scale(1.2) perspective(1px)
+}
+
+h1{
+    font-size: 3.7rem;
+    font-family: 'Arial';
+    width: 250px;
+    padding-top: 13px;
+    position: absolute;
+    margin: -40px 0 0 40px;
+}
+
+
+/* VIPPS LOGO */
+object{
+    width: 400px;
+    position: absolute;
+    margin: -80px 0 0 -200px;
 }
